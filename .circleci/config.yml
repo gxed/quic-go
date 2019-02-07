@@ -46,10 +46,6 @@ workflows:
   workflow:
     jobs:
       - build:
-          name: "Go 1.11"
-          image: "circleci/golang:1.11-stretch-browsers"
+          name: "Go 1.12beta2"
+          image: "circleci/golang:1.12beta2-stretch-browsers"
           runrace: true
-      - build:
-          name: "Go 1.10"
-          image: "circleci/golang:1.10-stretch-browsers"
-          runrace: false
