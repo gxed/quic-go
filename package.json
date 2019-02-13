@@ -11,6 +11,6 @@
   "license": "",
   "name": "quic-go",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.9.0"
+  "version": "0.10.0"
 }
 
